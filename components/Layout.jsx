@@ -5,7 +5,7 @@ export default function Layout({children}){
 	return(
     <>
       <div className={styles.centerImage}>
-        <Link href="/"><a href="/"><img src="/assets/logo.png" alt="" /></a></Link>
+        <Link href="/"><img src="/assets/logo.png" alt="" /></Link>
       </div>
       {children}
     </>
