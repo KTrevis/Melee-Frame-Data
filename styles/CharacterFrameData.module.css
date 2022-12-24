@@ -1,0 +1,14 @@
+.container{
+	text-align: center;
+}
+
+.containerAttacks{
+	display: flex;
+	align-items: flex-start;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.container>h2{
+	border-bottom: solid 1px white;
+}

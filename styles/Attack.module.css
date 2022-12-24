@@ -1,0 +1,40 @@
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	margin: 0.5rem;
+	width: 18rem;
+}
+
+.container>h3{
+	text-decoration: underline;
+}
+
+.container>img{
+	cursor: pointer;
+	max-width: 100%;
+}
+
+.misc{
+	display: flex;
+	justify-content: center;
+	margin: 0.5rem;
+	border-radius: 5px;
+	width: 40%;
+	height: 10rem;
+	flex-direction: column;
+	border: solid 1px white;
+}
+
+.note{
+	font-weight: bold;
+}
+
+@media screen and (max-width: 660px)
+{
+	.container{
+		width: 100%;
+		height: auto;
+	}
+}

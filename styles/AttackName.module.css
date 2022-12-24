@@ -1,0 +1,28 @@
+.container{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.buttonContainer{
+	display: flex;
+}
+
+.buttonContainer>button{
+	margin: 1rem;
+}
+
+.container>img{
+	max-width: 100vw;
+}
+
+.closeAttackFrames{
+	align-self: flex-end;
+	margin: 1rem;
+	color: red;
+	font-weight: bold;
+	font-size: 1.5rem;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+}

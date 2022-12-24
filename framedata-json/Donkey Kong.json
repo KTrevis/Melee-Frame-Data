@@ -1,0 +1,170 @@
+{
+    "grounded": {
+        "jab1": {
+            "name": "Jab 1",
+            "starts": 5,
+            "ends": 7,
+            "iasa": 24,
+            "damage": "4%"
+        },
+        "jab2": {
+            "name": "Jab 2",
+            "starts": 4,
+            "ends": 10,
+            "iasa": 33,
+            "damage": "6%"
+        },
+        "ftilt": {
+            "name": "Forward Tilt",
+            "starts": 8,
+            "ends": 11,
+            "iasa": 33,
+            "damage": "10%",
+            "note": "Angled Up does 11%, Angled Down does 9%"
+        },
+        "utilt": {
+            "name": "Up Tilt",
+            "starts": 6,
+            "ends": 11,
+            "iasa": 39,
+            "damage": "11%, 10%, 9%"
+        },
+        "dtilt": {
+            "name": "Down Tilt",
+            "starts": 6,
+            "ends": 9,
+            "iasa": 22,
+            "damage": "7%"
+        },
+        "dashattack": {
+            "name": "Dash Attack",
+            "starts": 9,
+            "ends": 20,
+            "iasa": 54,
+            "damage": "11%, 9%",
+            "note": "Frames 13-20 : Weak Hitbox"
+        },
+        "fsmash": {
+            "name": "Forward Smash",
+            "starts": 22,
+            "ends": 23,
+            "iasa": 54,
+            "damage": "21%, 20%, 18%, 19%"
+        },
+        "usmash": {
+            "name": "Up Smash",
+            "starts": 14,
+            "ends": 16,
+            "iasa": 53,
+            "damage": "18%"
+        },
+        "dsmash": {
+            "name": "Down Smash",
+            "starts": 10,
+            "ends": 13,
+            "iasa": 55,
+            "damage": "16%, 14%"
+        }
+    },
+    "aerials": {
+        "nair": {
+            "name": "Neutral Air",
+            "starts": 10,
+            "ends": 26,
+            "iasa": 39,
+            "damage": "12%, 10%",
+            "landingLag": 10,
+            "note": "Frame 14-26: Weak Hitbox"
+        },
+        "fair": {
+            "name": "Forward Air",
+            "starts": 25,
+            "ends": 29,
+            "iasa": 59,
+            "damage": "16%",
+            "landingLag": 15,
+            "note": "Frame 25-26 : Meteor Hitbox"
+        },
+        "bair": {
+            "name": "Back Air",
+            "starts": 7,
+            "ends": 15,
+            "iasa": 32,
+            "damage": "13%, 9%",
+            "landingLag": 7,
+            "note": "Frame 9-15 : Weak Hitbox"
+        },
+        "uair": {
+            "name": "Up Air",
+            "starts": 6,
+            "ends": 8,
+            "iasa": 38,
+            "damage": "14%",
+            "landingLag": 12
+        },
+        "dair": {
+            "name": "Down Air",
+            "starts": 18,
+            "ends": 23,
+            "iasa": 54,
+            "damage": "16%, 13%",
+            "landingLag": 15
+        }
+    },
+    "specials": {
+        "neutralb": {
+            "name": "Neutral B",
+            "starts": 17,
+            "ends": 21,
+            "iasa": 46,
+            "damage": "30%, 18%"
+        },
+        "sideb": {
+            "name": "Side B",
+            "starts": 20,
+            "ends": 21,
+            "iasa": 59,
+            "damage": 5
+        },
+        "upb": {
+            "name": "Up B",
+            "starts": 3,
+            "ends": 58,
+            "iasa": 84,
+            "damage": "12%, 3%",
+            "note": "Frame 3-5 : Invincible and Strong Hitbox"
+        },
+        "downb": {
+            "name": "Down B",
+            "starts": 19,
+            "ends": 31,
+            "iasa": 60,
+            "damage": "11%",
+            "note": "Frames 14-16 : Strong Hitbox, Frames 17-24 : Weaker Hitbox, Frames 25-32 : Weakest Hitbox"
+        }
+    },
+    "grabs": {
+        "grab": {
+            "name": "Standing Grab",
+            "starts": 8,
+            "ends": 9,
+            "iasa": 29
+        },
+        "dashGrab": {
+            "name": "Dash Grab",
+            "starts": 10,
+            "ends": 11,
+            "iasa": 49
+        }
+    },
+    "miscellaneous": {
+        "weight": {
+         "name": "Weight",
+         "value": 114
+        },
+        "jumpSquat": {
+            "name": "Jump Squat Frames",
+            "value": 5
+        }
+    }
+}

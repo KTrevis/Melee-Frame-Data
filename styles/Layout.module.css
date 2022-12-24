@@ -1,0 +1,8 @@
+.centerImage{
+	display: flex;
+	justify-content: space-around;
+}
+
+.centerImage>a>img{
+	height: 20vh;
+}
